@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  height: 100dvh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo {
+  background-size: cover; /* Adjust the size of the background image. 'cover' will scale the image to cover the entire element. */
+  background-repeat: no-repeat; /* Prevent the image from repeating. */
+  background-attachment: fixed;
+}
+
+/*For macbook screen*/
+/*@media (max-height: 823px) {*/
+/*  .Container {*/
+/*    height: 85.4vh; !* Slightly less height *!*/
+/*  }*/
+/*}*/
+
+/*!*For larger screen*!*/
+/*@media (min-height: 1294px) {*/
+/*  .Container {*/
+/*    height: 90.7vh; !* Full screen height *!*/
+/*  }*/
+/*}*/
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mainColor {
+  color: #91e8ff;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
